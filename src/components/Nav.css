@@ -1,0 +1,33 @@
+.nav {
+	position: sticky;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	top: 0;
+	left: 0;
+	background: #765C36;
+	height: 3rem;
+	width: 100%;
+}
+
+.nav ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	font-size: 1.3rem;
+	font-weight: 400;
+	color: white;
+}
+
+.nav li {
+	padding: 0.8rem 3rem 0.8rem 3rem;
+	list-style: none;
+
+}
+
+.nav li:hover {
+	background: white;
+	color: black;
+	cursor: pointer;
+}

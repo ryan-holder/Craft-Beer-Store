@@ -1,0 +1,12 @@
+.banner {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 10rem;
+}
+
+.logo {
+	height: 130px;
+	width: auto;
+}
