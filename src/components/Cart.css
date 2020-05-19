@@ -1,28 +1,113 @@
-.cart {
+.cart-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	position: fixed;
+	background: #efefef;
+	top: 0; 
+	right: 0;
+	width: 30em;
+	height: 100%;
+	transition: all 0.5s cubic-bezier(0.49, 0.12, 0.02, 1);
+	transform: translateX(100%);
+}
+
+.cart-wrapper-active {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	position: fixed;
+	background: white;
+	bottom: 0; 
+	right: 0;
+	width: 30%;
+	height: 100%;
+	transition: all 0.5s cubic-bezier(0.49, 0.12, 0.02, 1);
+	border-left: 1px black solid;
+	box-shadow: -1em 0em 20em -1em black;
+}
+
+.cart-svg {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
+	position: absolute;
+	right: 100%;
+	top: 50%;
+	height: 4em;
+	width: 2em;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	background: rgba(118, 92, 54, 1);
 }
 
-.order {
-	padding: 0rem;
+.cart-svg:hover {
+	cursor: pointer;
 }
 
-.orderitem {
+.cart {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+
+
+.cart-ul {
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+}
+
+.cart-li {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-gap: 1em;
+	padding: 1em;
+	align-items: center;
 	list-style: none;
+	border-bottom: 1px solid black;
 }
 
-.orderitem:hover button {
-	display: inline;
+.cart img {
+	height: 80px; 
 }
 
-.orderitem button {
-	border: 0;
-  display: none;
-  line-height: 1;
-  padding: 0;
-  margin-left: 0.2rem;
+.item {
+	white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
+.item-price {
+	text-align: right;
+}
+
+.cart button {
+	position: fixed;
+	bottom: 5%;
+	padding: 0.8rem;
+	border: 0.05rem solid black;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 0.9rem;
+	font-weight: 700;
+	color: black;
+	background: white;
+	cursor: pointer;
+}
+
+.cart button:hover {
+	background: black;
+	color: white;
+}
+
+.cart button:active {
+	background: white;
+	color: black;
+}

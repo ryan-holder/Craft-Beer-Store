@@ -27,7 +27,7 @@
 
 .beerdesc {
 	font-family: 'Noto Sans JP', sans-serif;
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 }
 
 .buttoncontainer {
@@ -45,6 +45,7 @@
 	font-size: 0.6rem;
 	color: black;
 	background: white;
+	cursor: pointer;
 }
 
 .beerbutton:hover {
@@ -54,8 +55,7 @@
 
 .beerbutton:active {
 	background: white;
-	color: black
-	;
+	color: black;
 }
 
 .beerbutton[disabled] {

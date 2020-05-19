@@ -1,19 +1,19 @@
-import React, { Fragment } from 'react';
-import Store from './components/Store';
-import Cart from './components/Cart';
+import React from 'react';
 import Header from './components/Header'
 import Nav from './components/Nav';
+import Store from './components/Store';
+import Cart from './components/Cart'
+import Checkout from './components/Checkout';
+import NotFound from './components/NotFound';
 import samplebeers from './samplebeers';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 
 class App extends React.Component {
-	constructor(props) {
-		super(props);
-		this.state = {
+	state = {
 			beers: samplebeers,
 			order: {}
 		}
-	}
 
 	componentDidMount() {
 		const localStorageRef = localStorage.getItem('user');
@@ -40,19 +40,26 @@ class App extends React.Component {
 
   render() {
   	return (
-	    <Fragment>
+	    <BrowserRouter>
 	    	<Header />
 	    	<Nav />
-	    	<Store 
-	    		beers={this.state.beers}
-	    		addToOrder={this.addToOrder}
-	    	/>
-	    	<Cart 
-	    		beers={this.state.beers}
-	    		order={this.state.order}
-	    		removeFromOrder={this.removeFromOrder}
-	    	/>
-	    </Fragment>
+	    	 	<Route 
+		    		exact 
+		    		path="/"
+		    		render={() => <Cart beers={this.state.beers} order={this.state.order} removeFromOrder={this.removeFromOrder}/>}
+		    	/>
+		    	<Switch>
+			    	<Route 
+			    		exact path="/"
+			    		render={() => <Store beers={this.state.beers} addToOrder={this.addToOrder} />}
+			    	/>
+			    	<Route
+			    		path="/Checkout"
+			    		render={() => <Checkout beers={this.state.beers} order={this.state.order} removeFromOrder={this.removeFromOrder} />}
+			    	/>
+			    	<Route exact component={NotFound} />
+		    	</Switch>
+	    </BrowserRouter>
   	);
 	}
 }

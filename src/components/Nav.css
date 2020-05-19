@@ -18,15 +18,29 @@
 	font-size: 1.3rem;
 	font-weight: 400;
 	color: white;
+	width: 100%;
 }
 
 .nav li {
-	padding: 0.8rem 3rem 0.8rem 3rem;
 	list-style: none;
+}
 
+.list {
+	padding: 0.8rem 3rem 0.8rem 3rem;
 }
 
 .nav li:hover {
+	background: white;
+	color: black;
+}
+
+.nav a {
+	padding: 0.8rem 3rem 0.8rem 3rem;
+	color: white;
+	text-decoration: none;
+}
+
+.nav a:hover {
 	background: white;
 	color: black;
 	cursor: pointer;

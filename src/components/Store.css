@@ -21,7 +21,7 @@
 	text-align: center; 
 	grid-template-columns: 1fr 1fr 1fr;
 	justify-content: space-around;
-	grid-gap: 2rem;
+	grid-gap: 2rem 2rem;
 }
 
 

@@ -6,7 +6,6 @@ const Store = ({ beers, addToOrder }) => {
 
 	return (
 		<div className="store">
-		 	{/*<p className="storetitle">Store</p>*/}
 			<div className="container">
 				{Object.keys(beers).map(key => (
 					<Beer 
