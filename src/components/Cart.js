@@ -1,68 +1,45 @@
-import React from 'react';
-import CartSVG from '../CartSVG';
-import { formatPrice } from '../helpers';
-import { Link } from 'react-router-dom';
-import './Cart.css';
+import React from "react";
+import Checkout from "./Checkout";
+import CartSVG from "../CartSVG";
+import { formatPrice } from "../helpers";
+import "./Cart.css";
 
 class Cart extends React.Component {
 	constructor(props) {
 		super(props);
 		this.toggleAppear = this.toggleAppear.bind(this);
-		this.state = { 'active': false }
-	}
-
-
-// renders a list item for each order in the cart
-// minimises the amount of code in render function
-	renderOrder = (key) => {
-		const { name, image, price } = this.props.beers[key];
-		const count = this.props.order[key];
-		return (
-			<li className="cart-li" key={key}>
-				<img src={image} alt={name}/>
-				<span className="item">
-					{count} x {name} 
-				</span>
-				<span className="item-price">
-					{formatPrice(price * count)}
-				</span>
-			</li>
-		)
+		this.state = { active: false };
 	}
 
 	// toggles classname on cart-wrapper to make
 	toggleAppear = () => {
 		const currentState = this.state.active;
-		this.setState({ 'active': !currentState });
-	}
+		this.setState({ active: !currentState });
+	};
 
 	render() {
-		// reduce function returns the total price from available beers in order
-		const orderIds = Object.keys(this.props.order);
-		const total = orderIds.reduce((tally, key) => {
-			const beer = this.props.beers[key];
-			const count = this.props.order[key];
-			const isAvailable = beer && beer.status === 'available';
-			if (isAvailable) {
-				return tally + (count * beer.price);
-			}	
-			return tally;
-		}, 0);
-
 		return (
-			<div className={this.state.active ? "cart-wrapper-active" : "cart-wrapper"}	>
+			<div
+				className={this.state.active ? "cart-wrapper-active" : "cart-wrapper"}
+			>
 				<div className="cart-svg" onClick={this.toggleAppear}>
 					<CartSVG />
 				</div>
 				<div className="cart">
-					<ul className="cart-ul">
-						{orderIds.map(this.renderOrder)}
-					</ul>
-					<button><Link to="/checkout">Checkout: {formatPrice(total)}</Link></button>
+					<Checkout
+						beers={this.props.beers}
+						order={this.props.order}
+						removeFromOrder={this.props.removeFromOrder}
+					/>
+					<button className="cart-button">
+						Checkout: {/*formatPrice(total)*/}
+					</button>
 				</div>
 			</div>
-		)
+		);
 	}
 }
 
 export default Cart;
+
+//need to tidy up Cart display, add scroll function, add CSS transition to order items, and complete the Checkout with 'pay function'

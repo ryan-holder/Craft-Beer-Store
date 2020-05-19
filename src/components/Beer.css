@@ -26,7 +26,7 @@
 }
 
 .beerdesc {
-	font-family: 'Noto Sans JP', sans-serif;
+	font-family: "Noto Sans JP", sans-serif;
 	font-size: 0.8rem;
 }
 
@@ -41,7 +41,7 @@
 	margin: 1rem;
 	padding: 0.5rem;
 	border: 0.05rem solid black;
-	font-family: 'Noto Sans JP', sans-serif;
+	font-family: "Noto Sans JP", sans-serif;
 	font-size: 0.6rem;
 	color: black;
 	background: white;
@@ -61,6 +61,6 @@
 .beerbutton[disabled] {
 	color: red;
 	font-size: 0.8rem;
-	background: #FFF;
+	background: #fff;
 	border-style: none;
 }

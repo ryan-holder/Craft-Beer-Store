@@ -1,11 +1,11 @@
-import React from 'react';
-import { formatPrice } from '../helpers'
-import './Beer.css'
+import React from "react";
+import { formatPrice } from "../helpers";
+import "./Beer.css";
 
 class Beer extends React.Component {
 	render() {
-	const { name, image, desc, price, status } = this.props.details;
-	const isAvailable = status === 'available';
+		const { name, image, desc, price, status } = this.props.details;
+		const isAvailable = status === "available";
 
 		return (
 			<div className="beer">
@@ -16,17 +16,16 @@ class Beer extends React.Component {
 				</span>
 				<p className="beerdesc">{desc}</p>
 				<span className="buttoncontainer">
-					<button 
-						disabled={!isAvailable} 
+					<button
+						disabled={!isAvailable}
 						className="beerbutton"
 						onClick={() => this.props.addToOrder(this.props.index)}
 					>
-						{isAvailable ? 'Add to cart' : 'SOLD OUT'}
+						{isAvailable ? "Add to cart" : "SOLD OUT"}
 					</button>
-					
 				</span>
 			</div>
-		)
+		);
 	}
 }
 

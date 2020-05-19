@@ -4,25 +4,43 @@
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
+	width: 100%;
 }
 
-.order {
+.checkout-order {
 	padding: 0rem;
 }
 
-.orderitem {
+.order-item {
+	display: flex;
+	flex: row;
+	align-items: center;
 	list-style: none;
 }
 
-.orderitem:hover button {
+.order-item img {
+	height: 100px;
+}
+
+.order-item:hover button {
 	display: inline;
 }
 
-.orderitem button {
+.order-item-button {
 	border: 0;
-  display: none;
-  line-height: 1;
-  padding: 0;
-  margin-left: 0.2rem;
+	background: white;
+	height: 1.5em;
+	width: 1.5em;
+	padding: 0;
+	margin-left: 0.2rem;
 }
 
+.order-item-button:hover {
+	background: black;
+	color: white;
+}
+
+.order-item-button:active {
+	background: white;
+	color: black;
+}
