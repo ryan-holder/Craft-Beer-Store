@@ -12,8 +12,8 @@ class Beer extends React.Component {
 				<img className="beerimg" src={image} alt={name} />
 				<span className="beertitle">
 					<h3 className="beername">{name}</h3>
-					<span className="beerprice">{formatPrice(price)}</span>
 				</span>
+				<span className="beerprice">{formatPrice(price)}</span>
 				<p className="beerdesc">{desc}</p>
 				<span className="buttoncontainer">
 					<button

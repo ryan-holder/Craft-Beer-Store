@@ -6,11 +6,15 @@ const Nav = () => {
 	return (
 		<nav className="nav">
 			<ul>
-				<li className="list">About</li>
+				<li>
+					<Link to="/">About</Link>
+				</li>
 				<li>
 					<Link to="/checkout">Checkout</Link>
 				</li>
-				<li className="list">Contact</li>
+				<li>
+					<Link to="/">Contact</Link>
+				</li>
 			</ul>
 		</nav>
 	);

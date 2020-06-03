@@ -7,7 +7,7 @@ const Header = () => {
 		<header className="banner">
 			<Link to="/">
 				<img
-					src="https://seeklogo.com/images/C/craft-beer-logo-348F3B1B58-seeklogo.com.png"
+					src="https://image.freepik.com/free-vector/vintage-octoberfest-black-logo_225004-1232.jpg"
 					className="logo"
 					alt="beer logo"
 				/>

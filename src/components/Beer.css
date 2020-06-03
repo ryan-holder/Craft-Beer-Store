@@ -17,17 +17,20 @@
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	padding: 1rem;
+	padding: 1rem 1rem 0.2rem 1rem;
 	width: 100%;
+	font-family: "Segoe UI", "Helvetica";
 }
 
 .beerprice {
 	font-size: 0.8rem;
+	padding-bottom: 0.4rem;
 }
 
 .beerdesc {
 	font-family: "Noto Sans JP", sans-serif;
 	font-size: 0.8rem;
+	margin: 0.5em;
 }
 
 .buttoncontainer {
@@ -49,13 +52,17 @@
 }
 
 .beerbutton:hover {
-	background: black;
+	background: #393939;
 	color: white;
 }
 
 .beerbutton:active {
 	background: white;
-	color: black;
+	color: #393939;
+}
+
+.beerbutton:focus {
+	outline: none;
 }
 
 .beerbutton[disabled] {

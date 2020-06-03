@@ -5,9 +5,10 @@
 	justify-content: center;
 	top: 0;
 	left: 0;
-	background: #765c36;
+	background: #292929;
 	height: 3rem;
 	width: 100%;
+	font-family: "Segoe UI";
 }
 
 .nav ul {
@@ -15,7 +16,7 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: row;
-	font-size: 1.3rem;
+	font-size: 1.3em;
 	font-weight: 400;
 	color: white;
 	width: 100%;
@@ -29,13 +30,8 @@
 	padding: 0.8rem 3rem 0.8rem 3rem;
 }
 
-.nav li:hover {
-	background: white;
-	color: black;
-}
-
 .nav a {
-	padding: 0.8rem 3rem 0.8rem 3rem;
+	padding: 0.9rem 3rem 0.9rem 3rem;
 	color: white;
 	text-decoration: none;
 }

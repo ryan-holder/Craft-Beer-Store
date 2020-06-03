@@ -1,7 +1,6 @@
 import React from "react";
 import Checkout from "./Checkout";
 import CartSVG from "../CartSVG";
-import { formatPrice } from "../helpers";
 import "./Cart.css";
 
 class Cart extends React.Component {

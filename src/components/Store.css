@@ -4,22 +4,14 @@
 	height: auto;
 	background: white;
 	align-items: center;
-	padding-top: 3rem;
-}
-
-.storetitle {
-	display: block;
-	position: relative;
-	text-align: center;
-	font-weight: 900;
-	font-size: 2rem;
+	padding: 3em 0 10em 0;
 }
 
 .container {
 	display: grid;
-	width: 80%;
+	max-width: 80%;
 	text-align: center;
 	grid-template-columns: 1fr 1fr 1fr;
 	justify-content: space-around;
-	grid-gap: 2rem 2rem;
+	grid-gap: 2em;
 }

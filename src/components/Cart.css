@@ -1,3 +1,5 @@
+/* CART COMPONENT ELEMENTS */
+
 .cart-svg {
 	display: flex;
 	flex-direction: column;
@@ -11,7 +13,7 @@
 	border-top: 1px solid black;
 	border-left: 1px solid black;
 	border-bottom: 1px solid black;
-	background: rgba(118, 92, 54, 1);
+	background: #292929;
 }
 
 .cart-svg:hover {
@@ -55,8 +57,10 @@
 	justify-content: flex-start;
 	align-items: center;
 	height: 100%;
-	width: 100%;
+	max-width: 90%;
 }
+
+/* MODIFIED CHECKOUT ELEMENTS FOR CART */
 
 .cart .checkout {
 	justify-content: flex-start;
@@ -81,7 +85,7 @@
 
 .cart li {
 	display: grid;
-	grid-template-columns: 2fr 3fr 1fr 1fr;
+	grid-template-columns: 5fr 1fr 1fr;
 	grid-gap: 1em;
 	padding: 1em;
 	align-items: center;
@@ -94,8 +98,10 @@
 }
 
 .cart img {
-	height: 80px;
+	display: none;
 }
+
+/* BUTTONS */
 
 .cart .order-item-button {
 	background: white;
