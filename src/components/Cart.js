@@ -1,6 +1,7 @@
 import React from "react";
 import Checkout from "./Checkout";
 import CartSVG from "../CartSVG";
+import { Link } from "react-router-dom";
 import "./Cart.css";
 
 class Cart extends React.Component {
@@ -29,9 +30,9 @@ class Cart extends React.Component {
 						order={this.props.order}
 						removeFromOrder={this.props.removeFromOrder}
 					/>
-					<button className="cart-button">
-						Checkout: {/*formatPrice(total)*/}
-					</button>
+					<Link to="/checkout">
+						<button className="cart-button">Checkout</button>
+					</Link>
 				</div>
 			</div>
 		);

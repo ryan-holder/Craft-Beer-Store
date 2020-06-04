@@ -8,7 +8,7 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 }
 
@@ -17,7 +17,8 @@
 	margin-bottom: 8em;
 	display: flex;
 	flex-direction: column;
-	width: 60%;
+	align-items: center;
+	width: 50%;
 }
 
 .checkout-title {
@@ -25,19 +26,28 @@
 }
 
 .checkout-total {
+	width: 110%;
 	text-align: center;
-	margin-top: 2em;
+	border: 1px solid #393939;
+	margin-top: 2.5em;
+	background: white;
+	border-radius: 4px;
+}
+
+.checkout-total > * {
+	margin: 1em;
 }
 
 .checkout-button {
-	padding: 0.8rem;
-	border: 0.05rem solid black;
-	font-family: "Noto Sans JP", sans-serif;
+	padding: 0.5rem;
+	border: 0.05rem solid #393939;
+	font-family: "Segoe UI";
 	font-size: 0.9rem;
-	font-weight: 700;
+	font-weight: 400;
 	color: #393939;
 	background: white;
 	cursor: pointer;
+	z-index: -1;
 }
 
 .checkout-button:hover {
@@ -58,12 +68,16 @@
 
 .order-item {
 	display: grid;
-	grid-template-columns: 2fr 4fr 1fr 1fr;
+	grid-template-columns: 4fr 8fr 1fr 1fr;
 	align-items: center;
 	list-style: none;
 	padding: 1em;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #393939;
 	font-family: "Segoe UI";
+}
+
+.order-item:last-child {
+	border-bottom: none;
 }
 
 .order-item-title {
@@ -77,7 +91,7 @@
 }
 
 .order-item img {
-	height: 130px;
+	height: 100px;
 }
 
 .order-item-price {
@@ -108,20 +122,24 @@
 	color: black;
 }
 
+.empty-cart {
+	margin-top: 2em;
+}
+
 @media all and (max-width: 90em) {
 	.checkout {
-		width: 70%;
+		width: 60%;
 	}
 }
 
 @media all and (max-width: 65em) {
 	.checkout {
-		width: 85%;
+		width: 75%;
 	}
 }
 
 @media all and (max-width: 38em) {
 	.checkout {
-		width: 100%;
+		width: 95%;
 	}
 }

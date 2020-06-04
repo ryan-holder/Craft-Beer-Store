@@ -41,8 +41,9 @@ class Checkout extends React.Component {
 					<h2 className="checkout-title">Your Cart</h2>
 					<ul className="checkout-order">{orderIds.map(this.renderOrder)}</ul>
 					<div className="checkout-total">
-						Total:
-						<strong>{formatPrice(total)}</strong>
+						<span>
+							Total: <strong>{formatPrice(total)}</strong>
+						</span>
 						<button className="checkout-button">Pay Now</button>
 					</div>
 				</div>

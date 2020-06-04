@@ -13,5 +13,5 @@
 	text-align: center;
 	grid-template-columns: 1fr 1fr 1fr;
 	justify-content: space-around;
-	grid-gap: 2em;
+	grid-gap: 3.5em;
 }
