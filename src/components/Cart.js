@@ -10,7 +10,6 @@ class Cart extends React.Component {
 		this.state = { active: false };
 	}
 
-	// toggles classname on cart-wrapper to make
 	toggleAppear = () => {
 		const currentState = this.state.active;
 		this.setState({ active: !currentState });

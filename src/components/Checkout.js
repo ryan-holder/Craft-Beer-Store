@@ -9,7 +9,9 @@ class Checkout extends React.Component {
 		return (
 			<li key={key} className="order-item">
 				<img src={image} alt={name} />
-				{count} x {name}{" "}
+				<span className="order-item-title">
+					{count} x {name}
+				</span>
 				<span className="order-item-price">{formatPrice(price * count)}</span>
 				<button
 					className="order-item-button"
@@ -34,12 +36,15 @@ class Checkout extends React.Component {
 		}, 0);
 
 		return (
-			<div className="checkout">
-				<h2 className="checkout-title">Your Cart</h2>
-				<ul className="checkout-order">{orderIds.map(this.renderOrder)}</ul>
-				<div className="total">
-					Total:
-					<strong>{formatPrice(total)}</strong>
+			<div className="checkout-wrapper">
+				<div className="checkout">
+					<h2 className="checkout-title">Your Cart</h2>
+					<ul className="checkout-order">{orderIds.map(this.renderOrder)}</ul>
+					<div className="checkout-total">
+						Total:
+						<strong>{formatPrice(total)}</strong>
+						<button className="checkout-button">Pay Now</button>
+					</div>
 				</div>
 			</div>
 		);

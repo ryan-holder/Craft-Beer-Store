@@ -13,7 +13,7 @@
 	border-top: 1px solid black;
 	border-left: 1px solid black;
 	border-bottom: 1px solid black;
-	background: #292929;
+	background: #6f5532;
 }
 
 .cart-svg:hover {
@@ -57,7 +57,7 @@
 	justify-content: flex-start;
 	align-items: center;
 	height: 100%;
-	max-width: 90%;
+	max-width: 95%;
 }
 
 /* MODIFIED CHECKOUT ELEMENTS FOR CART */
@@ -70,17 +70,16 @@
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	height: 10%;
+	height: 3em;
 	justify-content: center;
 	text-align: center;
 	background: white;
 	border-bottom: 1px solid black;
 }
 
-.cart .order {
+.cart .checkout-order {
 	width: 100%;
 	height: 100%;
-	overflow-y: auto;
 }
 
 .cart li {
@@ -93,7 +92,7 @@
 	border-bottom: 1px solid black;
 }
 
-.cart .total {
+.cart .checkout-total {
 	display: none;
 }
 
@@ -121,11 +120,11 @@
 }
 
 .cart button:hover {
-	background: black;
+	background: #393939;
 	color: white;
 }
 
 .cart button:active {
 	background: white;
-	color: black;
+	color: #393939;
 }

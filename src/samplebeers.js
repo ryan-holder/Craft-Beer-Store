@@ -1,6 +1,6 @@
 const samplebeers = {
 	beer1: {
-		name: "Sawmill Pilsner / 5.0%",
+		name: "Sawmill Pilsner",
 		image: "/images/SawmillPilsner.jpg",
 		desc:
 			"Straw coloured appearance, brilliantly clear, with a long lasting white head. Crisp and bitter. Medium dry finish.",
@@ -9,7 +9,7 @@ const samplebeers = {
 	},
 
 	beer2: {
-		name: "Sawmill IPA / 5.8%",
+		name: "Sawmill IPA",
 		image: "/images/SawmillIPA.jpg",
 		desc:
 			"A mix of American Citra and NZ Cascade hops give the beer a bright and vibrant citrus burst. Crisp and drinkable.",
@@ -18,7 +18,7 @@ const samplebeers = {
 	},
 
 	beer3: {
-		name: "Sawmill XPA / 5.0%",
+		name: "Sawmill XPA",
 		image: "/images/SawmillXPA.jpg",
 		desc:
 			"It's literal - extra pale ale in colour with a foamy white head, light malt backbone, stonefruit aroma and lively hop character. ",
@@ -27,7 +27,7 @@ const samplebeers = {
 	},
 
 	beer4: {
-		name: "Sawmill 'The Doctor' / 6.5%",
+		name: "Sawmill 'The Doctor'",
 		image: "/images/SawmillTheDoctor.jpg",
 		desc:
 			"Toasty aromas, rich malts, light caramel and chocolate flavours. Dark brown in colour with ruby highlights.",
@@ -36,7 +36,7 @@ const samplebeers = {
 	},
 
 	beer5: {
-		name: "Sawmill Pale Ale / 5.0%",
+		name: "Sawmill Pale Ale",
 		image: "/images/SawmillPaleAle.jpg",
 		desc:
 			"Citrusy hop characters, slightly floral, and earthiness from the Wai-iti hops. Golden in colour, smooth finish and moderate bitterness. Balanced.",
@@ -90,7 +90,7 @@ const samplebeers = {
 	},
 
 	beer11: {
-		name: "Sawmill 'The Doctor' / 6.5%",
+		name: "Sawmill 'The Doctor'",
 		image: "/images/SawmillTheDoctor.jpg",
 		desc:
 			"Toasty aromas, rich malts, light caramel and chocolate flavours. Dark brown in colour with ruby highlights.",
@@ -135,7 +135,7 @@ const samplebeers = {
 	},
 
 	beer16: {
-		name: "Sawmill 'The Doctor' / 6.5%",
+		name: "Sawmill 'The Doctor'",
 		image: "/images/SawmillTheDoctor.jpg",
 		desc:
 			"Toasty aromas, rich malts, light caramel and chocolate flavours. Dark brown in colour with ruby highlights.",

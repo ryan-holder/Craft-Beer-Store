@@ -1,25 +1,87 @@
-.checkout {
+/* SHOULD I STORE MY MEDIA QUERIES ALL IN ONE PLACE?
+		TODO: NEED TO FIX THE PADDING ISSUE ON NAV BAR WHEN LOW WIDTH */
+
+/* CHECKOUT LANDING AND CONTAINER */
+
+.checkout-wrapper {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	height: 100vh;
 	width: 100%;
 }
 
-.checkout-order {
-	padding: 0rem;
+.checkout {
+	margin-top: 1em;
+	margin-bottom: 8em;
+	display: flex;
+	flex-direction: column;
+	width: 60%;
 }
 
+.checkout-title {
+	display: none;
+}
+
+.checkout-total {
+	text-align: center;
+	margin-top: 2em;
+}
+
+.checkout-button {
+	padding: 0.8rem;
+	border: 0.05rem solid black;
+	font-family: "Noto Sans JP", sans-serif;
+	font-size: 0.9rem;
+	font-weight: 700;
+	color: #393939;
+	background: white;
+	cursor: pointer;
+}
+
+.checkout-button:hover {
+	background: #393939;
+	color: white;
+}
+
+.checkout-button:active {
+	background: white;
+	color: #393939;
+}
+
+.checkout-button:focus {
+	outline: none;
+}
+
+/* INDIVIDUAL ITEMS IN CART */
+
 .order-item {
-	display: flex;
-	flex: row;
+	display: grid;
+	grid-template-columns: 2fr 4fr 1fr 1fr;
 	align-items: center;
 	list-style: none;
+	padding: 1em;
+	border-bottom: 1px solid black;
+	font-family: "Segoe UI";
+}
+
+.order-item-title {
+	display: flex;
+	align-items: center;
+	font-weight: 700;
+}
+
+.order-item-title > * {
+	margin-left: 0.5em;
 }
 
 .order-item img {
-	height: 100px;
+	height: 130px;
+}
+
+.order-item-price {
+	text-align: center;
 }
 
 .order-item:hover button {
@@ -27,12 +89,13 @@
 }
 
 .order-item-button {
+	position: relative;
+	left: 45%;
 	border: 0;
 	background: white;
 	height: 1.5em;
 	width: 1.5em;
 	padding: 0;
-	margin-left: 0.2rem;
 }
 
 .order-item-button:hover {
@@ -43,4 +106,22 @@
 .order-item-button:active {
 	background: white;
 	color: black;
+}
+
+@media all and (max-width: 90em) {
+	.checkout {
+		width: 70%;
+	}
+}
+
+@media all and (max-width: 65em) {
+	.checkout {
+		width: 85%;
+	}
+}
+
+@media all and (max-width: 38em) {
+	.checkout {
+		width: 100%;
+	}
 }
