@@ -13,12 +13,26 @@ class Checkout extends React.Component {
 					{count} x {name}
 				</span>
 				<span className="order-item-price">{formatPrice(price * count)}</span>
-				<button
-					className="order-item-button"
-					onClick={() => this.props.removeFromOrder(key)}
-				>
-					&times;
-				</button>
+				<div className="order-item-button-container">
+					<button
+						className="order-item-button"
+						onClick={() => this.props.addToOrder(key)}
+					>
+						&#9650;
+					</button>
+					<button
+						className="order-item-button"
+						onClick={() => this.props.removeFromOrder(key)}
+					>
+						&times;
+					</button>
+					<button
+						className="order-item-button"
+						onClick={() => this.props.decrementOrder(key)}
+					>
+						&#9660;
+					</button>
+				</div>
 			</li>
 		);
 	};

@@ -28,6 +28,8 @@ class Cart extends React.Component {
 					<Checkout
 						beers={this.props.beers}
 						order={this.props.order}
+						addToOrder={this.props.addToOrder}
+						decrementOrder={this.props.decrementOrder}
 						removeFromOrder={this.props.removeFromOrder}
 					/>
 					<Link to="/checkout">

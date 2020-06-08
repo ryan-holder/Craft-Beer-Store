@@ -32,6 +32,12 @@ class App extends React.Component {
 		this.setState({ order });
 	};
 
+	decrementOrder = (key) => {
+		const order = { ...this.state.order };
+		order[key] === 1 ? delete order[key] : (order[key] = order[key] - 1);
+		this.setState({ order });
+	};
+
 	removeFromOrder = (key) => {
 		const order = { ...this.state.order };
 		delete order[key];
@@ -50,6 +56,8 @@ class App extends React.Component {
 						<Cart
 							beers={this.state.beers}
 							order={this.state.order}
+							addToOrder={this.addToOrder}
+							decrementOrder={this.decrementOrder}
 							removeFromOrder={this.removeFromOrder}
 						/>
 					)}
@@ -68,6 +76,8 @@ class App extends React.Component {
 							<Checkout
 								beers={this.state.beers}
 								order={this.state.order}
+								addToOrder={this.addToOrder}
+								decrementOrder={this.decrementOrder}
 								removeFromOrder={this.removeFromOrder}
 							/>
 						)}

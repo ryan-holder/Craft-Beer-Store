@@ -98,8 +98,9 @@
 	text-align: center;
 }
 
-.order-item:hover button {
-	display: inline;
+.order-item-button-container {
+	display: flex;
+	flex-direction: column;
 }
 
 .order-item-button {
@@ -120,6 +121,10 @@
 .order-item-button:active {
 	background: white;
 	color: black;
+}
+
+.order-item-button:focus {
+	outline: none;
 }
 
 .empty-cart {
