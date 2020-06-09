@@ -4,6 +4,8 @@ import CartSVG from "../CartSVG";
 import { Link } from "react-router-dom";
 import "./Cart.css";
 
+//need to tidy up Cart display, add scroll function, add CSS transition to order items, and complete the Checkout with 'pay function'
+
 class Cart extends React.Component {
 	constructor(props) {
 		super(props);
@@ -32,6 +34,8 @@ class Cart extends React.Component {
 						decrementOrder={this.props.decrementOrder}
 						removeFromOrder={this.props.removeFromOrder}
 					/>
+				</div>
+				<div className="cart-button-wrapper">
 					<Link to="/checkout">
 						<button className="cart-button">Checkout</button>
 					</Link>
@@ -42,5 +46,3 @@ class Cart extends React.Component {
 }
 
 export default Cart;
-
-//need to tidy up Cart display, add scroll function, add CSS transition to order items, and complete the Checkout with 'pay function'

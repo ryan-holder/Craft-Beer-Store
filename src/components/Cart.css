@@ -1,3 +1,5 @@
+/* STILL NEED TO SORT OUT SCROLLING WHEN CART ITEM LSIT GETS LONGGGGGGGGGGGGGGGG */
+
 /* RESET */
 
 a {
@@ -68,7 +70,8 @@ a {
 	justify-content: flex-start;
 	align-items: center;
 	height: 100%;
-	max-width: 95%;
+	width: 100%;
+	margin-top: 1em;
 	overflow-y: hidden;
 }
 
@@ -78,20 +81,24 @@ a {
 	justify-content: flex-start;
 	width: 100%;
 	height: 100%;
+	margin: 0;
 }
 
 .cart .checkout-title {
 	display: flex;
 	width: 100%;
-	height: 2em;
+	height: 10%;
 	justify-content: center;
 	text-align: center;
-	border-bottom: 1px solid black;
+	box-shadow: 1px 0 2px black;
+	z-index: 2;
 }
 
 .cart .checkout-order {
-	width: 100%;
 	height: 100%;
+	width: 95%;
+	overflow-y: auto;
+	z-index: 1;
 }
 
 .cart .order-item {
@@ -114,13 +121,21 @@ a {
 
 /* BUTTONS */
 
-.cart .order-item-button {
-	background: white;
+.cart-button-wrapper {
+	position: relative;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 6.5em;
+	width: 100%;
+	box-shadow: 1px 0px 2px black;
+	z-index: 2;
 }
 
 .cart-button {
 	position: fixed;
-	bottom: 5%;
+	bottom: 3%;
 	padding: 0.8rem;
 	border: 0.05rem solid black;
 	font-family: "Noto Sans JP", sans-serif;
@@ -129,14 +144,37 @@ a {
 	color: black;
 	background: white;
 	cursor: pointer;
+	z-index: 3;
 }
 
-.cart button:hover {
-	background: #393939;
+.cart-button:hover {
+	background: black;
 	color: white;
 }
 
-.cart button:active {
+.cart-button:active {
 	background: white;
-	color: #393939;
+	color: black;
+}
+
+.cart-button:focus {
+	outline: none;
+}
+
+@media all and (max-width: 80em) {
+	.cart-wrapper-active {
+		width: 40%;
+	}
+}
+
+@media all and (max-width: 65em) {
+	.cart-wrapper-active {
+		width: 55%;
+	}
+}
+
+@media all and (max-width: 45em) {
+	.cart-wrapper-active {
+		width: 75%;
+	}
 }

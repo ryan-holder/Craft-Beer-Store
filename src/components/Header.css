@@ -10,3 +10,12 @@
 	height: 135px;
 	width: auto;
 }
+
+@media all and (max-width: 360px) {
+	.banner {
+		height: 8rem;
+	}
+	.logo {
+		height: 110px;
+	}
+}
