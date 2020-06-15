@@ -1,10 +1,11 @@
+// Add tally of items to cart svg; fix 'active' NavLinks so that you know what page you're on
+// Add total to cart; try lining total on Checkout with prices, keeping button in middle
+
 import React from "react";
 import Checkout from "./Checkout";
 import CartSVG from "../CartSVG";
 import { Link } from "react-router-dom";
 import "./Cart.css";
-
-//need to tidy up Cart display, add scroll function, add CSS transition to order items, and complete the Checkout with 'pay function'
 
 class Cart extends React.Component {
 	constructor(props) {
