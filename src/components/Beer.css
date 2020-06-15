@@ -8,8 +8,9 @@
 }
 
 .beerimg {
-	height: 200px;
+	height: 12.5em;
 	width: auto;
+	flex-shrink: 0;
 }
 
 .beertitle {
