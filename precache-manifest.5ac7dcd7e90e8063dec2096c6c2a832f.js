@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3dd55bf648caf3a06354531d0473cbfc",
+    "revision": "6491a0db4ac4e20b3c7ac8358d4cbaff",
     "url": "/Craft-Beer-Store/index.html"
   },
   {
-    "revision": "7bf1f73cd1c86ab68cee",
+    "revision": "c1640d6e8c240834e7f6",
     "url": "/Craft-Beer-Store/static/css/main.5dd24abc.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Craft-Beer-Store/static/js/2.96950e0c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7bf1f73cd1c86ab68cee",
-    "url": "/Craft-Beer-Store/static/js/main.5fed2730.chunk.js"
+    "revision": "c1640d6e8c240834e7f6",
+    "url": "/Craft-Beer-Store/static/js/main.a61c56fe.chunk.js"
   },
   {
     "revision": "db81724f8b1055374b89",
