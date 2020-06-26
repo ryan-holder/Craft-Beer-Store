@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Craft-Beer-Store/static/css/main.5dd24abc.chunk.css",
-    "main.js": "/Craft-Beer-Store/static/js/main.60f47c82.chunk.js",
-    "main.js.map": "/Craft-Beer-Store/static/js/main.60f47c82.chunk.js.map",
+    "main.js": "/Craft-Beer-Store/static/js/main.9544138a.chunk.js",
+    "main.js.map": "/Craft-Beer-Store/static/js/main.9544138a.chunk.js.map",
     "runtime-main.js": "/Craft-Beer-Store/static/js/runtime-main.0bbf4ca2.js",
     "runtime-main.js.map": "/Craft-Beer-Store/static/js/runtime-main.0bbf4ca2.js.map",
     "static/js/2.96950e0c.chunk.js": "/Craft-Beer-Store/static/js/2.96950e0c.chunk.js",
     "static/js/2.96950e0c.chunk.js.map": "/Craft-Beer-Store/static/js/2.96950e0c.chunk.js.map",
     "index.html": "/Craft-Beer-Store/index.html",
-    "precache-manifest.80c36d5efce3145bef9aaf8cec0e6c4a.js": "/Craft-Beer-Store/precache-manifest.80c36d5efce3145bef9aaf8cec0e6c4a.js",
+    "precache-manifest.dce468386f5665f1465761f8bcbf762d.js": "/Craft-Beer-Store/precache-manifest.dce468386f5665f1465761f8bcbf762d.js",
     "service-worker.js": "/Craft-Beer-Store/service-worker.js",
     "static/css/main.5dd24abc.chunk.css.map": "/Craft-Beer-Store/static/css/main.5dd24abc.chunk.css.map",
     "static/js/2.96950e0c.chunk.js.LICENSE.txt": "/Craft-Beer-Store/static/js/2.96950e0c.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.0bbf4ca2.js",
     "static/js/2.96950e0c.chunk.js",
     "static/css/main.5dd24abc.chunk.css",
-    "static/js/main.60f47c82.chunk.js"
+    "static/js/main.9544138a.chunk.js"
   ]
 }
