@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "68816376745f904e9d1ffbe2c1989cce",
+    "revision": "61f055c68bf1658793e9d253a25bb285",
     "url": "/Craft-Beer-Store/index.html"
   },
   {
