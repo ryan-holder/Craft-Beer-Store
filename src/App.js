@@ -51,7 +51,7 @@ class App extends React.Component {
 				<Nav />
 				<Route
 					exact
-					path="/Craft-Beer-Store"
+					path="/Craft-Beer-Store/"
 					render={() => (
 						<Cart
 							beers={this.state.beers}
@@ -65,7 +65,7 @@ class App extends React.Component {
 				<Switch>
 					<Route
 						exact
-						path="/Craft-Beer-Store"
+						path="/Craft-Beer-Store/"
 						render={() => (
 							<Store beers={this.state.beers} addToOrder={this.addToOrder} />
 						)}
