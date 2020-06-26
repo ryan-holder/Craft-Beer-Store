@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/craft-beer-store/static/css/main.5dd24abc.chunk.css",
+    "main.js": "/craft-beer-store/static/js/main.c9861535.chunk.js",
+    "main.js.map": "/craft-beer-store/static/js/main.c9861535.chunk.js.map",
+    "runtime-main.js": "/craft-beer-store/static/js/runtime-main.4f02d0ab.js",
+    "runtime-main.js.map": "/craft-beer-store/static/js/runtime-main.4f02d0ab.js.map",
+    "static/js/2.96950e0c.chunk.js": "/craft-beer-store/static/js/2.96950e0c.chunk.js",
+    "static/js/2.96950e0c.chunk.js.map": "/craft-beer-store/static/js/2.96950e0c.chunk.js.map",
+    "index.html": "/craft-beer-store/index.html",
+    "precache-manifest.739532be7863be33ec8ba8393263dfb5.js": "/craft-beer-store/precache-manifest.739532be7863be33ec8ba8393263dfb5.js",
+    "service-worker.js": "/craft-beer-store/service-worker.js",
+    "static/css/main.5dd24abc.chunk.css.map": "/craft-beer-store/static/css/main.5dd24abc.chunk.css.map",
+    "static/js/2.96950e0c.chunk.js.LICENSE.txt": "/craft-beer-store/static/js/2.96950e0c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f02d0ab.js",
+    "static/js/2.96950e0c.chunk.js",
+    "static/css/main.5dd24abc.chunk.css",
+    "static/js/main.c9861535.chunk.js"
+  ]
+}
