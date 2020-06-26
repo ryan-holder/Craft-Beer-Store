@@ -37,7 +37,7 @@ class Cart extends React.Component {
 					/>
 				</div>
 				<div className="cart-button-wrapper">
-					<Link to="/checkout">
+					<Link to="/Craft-Beer-Store/checkout">
 						<button className="cart-button">Checkout</button>
 					</Link>
 				</div>

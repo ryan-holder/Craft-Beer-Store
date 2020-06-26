@@ -7,15 +7,15 @@ const Nav = () => {
 		<nav className="nav">
 			<ul>
 				<li>
-					<NavLink exact to="/">
+					<NavLink exact to="/Craft-Beer-Store">
 						Store
 					</NavLink>
 				</li>
 				<li>
-					<NavLink to="/checkout">Checkout</NavLink>
+					<NavLink to="/Craft-Beer-Store/checkout">Checkout</NavLink>
 				</li>
 				<li>
-					<NavLink exact to="/">
+					<NavLink exact to="/Craft-Beer-Store">
 						Contact
 					</NavLink>
 				</li>
