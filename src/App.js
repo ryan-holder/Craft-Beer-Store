@@ -17,7 +17,6 @@ class App extends React.Component {
 
 	componentDidMount() {
 		this.saveUserToLocalStorage();
-		console.log(process.env);
 	}
 
 	componentDidUpdate() {
