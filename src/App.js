@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "./components/Header";
-import Nav from "./components/Nav";
-import Store from "./components/Store";
-import Cart from "./components/Cart";
-import Checkout from "./components/Checkout";
-import NotFound from "./components/NotFound";
+import Header from "./components/Header/Header";
+import Nav from "./components/Nav/Nav";
+import Store from "./components/Store/Store";
+import Cart from "./components/Cart/Cart";
+import Checkout from "./components/Checkout/Checkout";
+import NotFound from "./components/NotFound/NotFound";
 import samplebeers from "./samplebeers";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
@@ -16,15 +16,20 @@ class App extends React.Component {
 	};
 
 	componentDidMount() {
-		const localStorageRef = localStorage.getItem("user");
-		if (localStorageRef) {
-			this.setState({ order: JSON.parse(localStorageRef) });
-		}
+		this.saveUserToLocalStorage();
+		console.log(process.env);
 	}
 
 	componentDidUpdate() {
 		localStorage.setItem("user", JSON.stringify(this.state.order));
 	}
+
+	saveUserToLocalStorage = () => {
+		const localStorageRef = localStorage.getItem("user");
+		if (localStorageRef) {
+			this.setState({ order: JSON.parse(localStorageRef) });
+		}
+	};
 
 	addToOrder = (key) => {
 		const order = { ...this.state.order };
@@ -45,17 +50,18 @@ class App extends React.Component {
 	};
 
 	render() {
+		const { beers, order } = this.state;
 		return (
 			<BrowserRouter>
 				<Header />
 				<Nav />
 				<Route
 					exact
-					path="/Craft-Beer-Store/"
+					path="/Craft-Beer-Store"
 					render={() => (
 						<Cart
-							beers={this.state.beers}
-							order={this.state.order}
+							beers={beers}
+							order={order}
 							addToOrder={this.addToOrder}
 							decrementOrder={this.decrementOrder}
 							removeFromOrder={this.removeFromOrder}
@@ -65,17 +71,15 @@ class App extends React.Component {
 				<Switch>
 					<Route
 						exact
-						path="/Craft-Beer-Store/"
-						render={() => (
-							<Store beers={this.state.beers} addToOrder={this.addToOrder} />
-						)}
+						path="/Craft-Beer-Store"
+						render={() => <Store beers={beers} addToOrder={this.addToOrder} />}
 					/>
 					<Route
-						path="/Craft-Beer-Store/checkout/"
+						path="/Craft-Beer-Store/checkout"
 						render={() => (
 							<Checkout
-								beers={this.state.beers}
-								order={this.state.order}
+								beers={beers}
+								order={order}
 								addToOrder={this.addToOrder}
 								decrementOrder={this.decrementOrder}
 								removeFromOrder={this.removeFromOrder}
