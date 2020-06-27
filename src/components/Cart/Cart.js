@@ -2,8 +2,8 @@
 // Add total to cart; try lining total on Checkout with prices, keeping button in middle
 
 import React from "react";
-import Checkout from "./Checkout";
-import CartSVG from "../CartSVG";
+import Checkout from "../Checkout/Checkout";
+import CartSVG from "../../CartSVG";
 import { Link } from "react-router-dom";
 import "./Cart.css";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import Beer from "./Beer";
+import Beer from "../Beer/Beer";
 import "./Store.css";
 
 const Store = ({ beers, addToOrder }) => {
