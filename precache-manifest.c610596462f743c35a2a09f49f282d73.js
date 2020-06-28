@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "50db78378bd65d3a91e7ccf851d545cf",
+    "revision": "7536921768402443fbb10e41e11cad98",
     "url": "/Craft-Beer-Store/index.html"
   },
   {
-    "revision": "0267870b136a3e095f83",
-    "url": "/Craft-Beer-Store/static/css/main.e065a92c.chunk.css"
+    "revision": "c5040be1a75e35676699",
+    "url": "/Craft-Beer-Store/static/css/main.0ded5c6d.chunk.css"
   },
   {
-    "revision": "e306bb9179ae78d61265",
-    "url": "/Craft-Beer-Store/static/js/2.7bd36d0b.chunk.js"
+    "revision": "81d433c94c6f3f0ae9c2",
+    "url": "/Craft-Beer-Store/static/js/2.fa1296b2.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Craft-Beer-Store/static/js/2.7bd36d0b.chunk.js.LICENSE.txt"
+    "url": "/Craft-Beer-Store/static/js/2.fa1296b2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0267870b136a3e095f83",
-    "url": "/Craft-Beer-Store/static/js/main.1f6c3ced.chunk.js"
+    "revision": "c5040be1a75e35676699",
+    "url": "/Craft-Beer-Store/static/js/main.ecc34775.chunk.js"
   },
   {
     "revision": "db81724f8b1055374b89",
@@ -46,5 +46,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "20c1bc336fb935039a03bb9182d82d43",
     "url": "/Craft-Beer-Store/static/media/SawmillXPA.20c1bc33.jpg"
+  },
+  {
+    "revision": "48d883108ac6712f5a115caf92efba18",
+    "url": "/Craft-Beer-Store/static/media/logo.48d88310.png"
   }
 ]);
