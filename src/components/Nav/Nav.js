@@ -7,7 +7,7 @@ const Nav = () => {
 		<nav className="nav">
 			<ul>
 				<li>
-					<NavLink exact to="/Craft-Beer-Store/">
+					<NavLink exact to="/Craft-Beer-Store">
 						Store
 					</NavLink>
 				</li>
@@ -15,7 +15,7 @@ const Nav = () => {
 					<NavLink to="/Craft-Beer-Store/checkout">Checkout</NavLink>
 				</li>
 				<li>
-					<NavLink exact to="/Craft-Beer-Store/">
+					<NavLink exact to="/Craft-Beer-Store">
 						Contact
 					</NavLink>
 				</li>
