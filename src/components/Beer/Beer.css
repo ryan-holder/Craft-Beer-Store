@@ -20,7 +20,11 @@
 	align-items: center;
 	padding: 1rem 1rem 0.2rem 1rem;
 	width: 90%;
-	font-family: "Segoe UI", "Helvetica";
+	font-family: "Noto Sans", sans-serif;
+}
+
+.beername {
+	font-size: 1.1em;
 }
 
 .beerprice {

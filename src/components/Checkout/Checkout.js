@@ -52,7 +52,7 @@ class Checkout extends React.Component {
 		return (
 			<div className="checkout-wrapper">
 				<div className="checkout">
-					<h2 className="checkout-title">Your Cart</h2>
+					<h3 className="checkout-title">Your Cart</h3>
 					<ul className="checkout-order">{orderIds.map(this.renderOrder)}</ul>
 					<div className="checkout-total">
 						<span>

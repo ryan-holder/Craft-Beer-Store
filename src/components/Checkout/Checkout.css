@@ -38,7 +38,7 @@
 .checkout-button {
 	padding: 0.5rem;
 	border: 0.05rem solid #393939;
-	font-family: "Segoe UI";
+	font-family: "Noto Sans", sans-serif;
 	font-size: 0.9rem;
 	font-weight: 400;
 	color: white;
@@ -70,7 +70,7 @@
 	list-style: none;
 	padding: 1em;
 	border-bottom: 1px solid #393939;
-	font-family: "Segoe UI";
+	font-family: "Noto Sans", sans-serif;
 }
 
 .order-item:last-child {
