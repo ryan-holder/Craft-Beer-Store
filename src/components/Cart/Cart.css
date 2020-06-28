@@ -185,7 +185,13 @@ a {
 }
 
 @media all and (max-width: 45em) {
+	.cart-wrapper {
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+	}
 	.cart-wrapper-active {
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
 		width: 75%;
 	}
 }
