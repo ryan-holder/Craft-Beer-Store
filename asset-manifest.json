@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/Craft-Beer-Store/static/css/main.0ded5c6d.chunk.css",
-    "main.js": "/Craft-Beer-Store/static/js/main.ecc34775.chunk.js",
-    "main.js.map": "/Craft-Beer-Store/static/js/main.ecc34775.chunk.js.map",
+    "main.js": "/Craft-Beer-Store/static/js/main.2e97bc52.chunk.js",
+    "main.js.map": "/Craft-Beer-Store/static/js/main.2e97bc52.chunk.js.map",
     "runtime-main.js": "/Craft-Beer-Store/static/js/runtime-main.0bbf4ca2.js",
     "runtime-main.js.map": "/Craft-Beer-Store/static/js/runtime-main.0bbf4ca2.js.map",
     "static/js/2.fa1296b2.chunk.js": "/Craft-Beer-Store/static/js/2.fa1296b2.chunk.js",
     "static/js/2.fa1296b2.chunk.js.map": "/Craft-Beer-Store/static/js/2.fa1296b2.chunk.js.map",
     "index.html": "/Craft-Beer-Store/index.html",
-    "precache-manifest.c610596462f743c35a2a09f49f282d73.js": "/Craft-Beer-Store/precache-manifest.c610596462f743c35a2a09f49f282d73.js",
+    "precache-manifest.ee5de4c7a8fd862b799e99bcf500e696.js": "/Craft-Beer-Store/precache-manifest.ee5de4c7a8fd862b799e99bcf500e696.js",
     "service-worker.js": "/Craft-Beer-Store/service-worker.js",
     "static/css/main.0ded5c6d.chunk.css.map": "/Craft-Beer-Store/static/css/main.0ded5c6d.chunk.css.map",
     "static/js/2.fa1296b2.chunk.js.LICENSE.txt": "/Craft-Beer-Store/static/js/2.fa1296b2.chunk.js.LICENSE.txt",
-    "static/media/Sawmill3By2.jpg": "/Craft-Beer-Store/static/media/Sawmill3By2.f672b335.jpg",
+    "static/media/Sawmill3By2.jpg": "/Craft-Beer-Store/static/media/Sawmill3By2.d9d74179.jpg",
     "static/media/SawmillHazy3By2.jpg": "/Craft-Beer-Store/static/media/SawmillHazy3By2.39a40339.jpg",
-    "static/media/SawmillIPA.jpg": "/Craft-Beer-Store/static/media/SawmillIPA.de36672d.jpg",
+    "static/media/SawmillIPA.jpg": "/Craft-Beer-Store/static/media/SawmillIPA.9cfc14b5.jpg",
     "static/media/SawmillPaleAle.jpg": "/Craft-Beer-Store/static/media/SawmillPaleAle.402f988d.jpg",
     "static/media/SawmillPilsner.jpg": "/Craft-Beer-Store/static/media/SawmillPilsner.3cef95ea.jpg",
-    "static/media/SawmillXPA.jpg": "/Craft-Beer-Store/static/media/SawmillXPA.20c1bc33.jpg",
+    "static/media/SawmillXPA.jpg": "/Craft-Beer-Store/static/media/SawmillXPA.9423b79c.jpg",
     "static/media/logo.png": "/Craft-Beer-Store/static/media/logo.48d88310.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0bbf4ca2.js",
     "static/js/2.fa1296b2.chunk.js",
     "static/css/main.0ded5c6d.chunk.css",
-    "static/js/main.ecc34775.chunk.js"
+    "static/js/main.2e97bc52.chunk.js"
   ]
 }

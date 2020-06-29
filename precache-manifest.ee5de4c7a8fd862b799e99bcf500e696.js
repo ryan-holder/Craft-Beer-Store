@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7536921768402443fbb10e41e11cad98",
+    "revision": "1598406d34da7414b9ea50e44f4fd9d4",
     "url": "/Craft-Beer-Store/index.html"
   },
   {
-    "revision": "c5040be1a75e35676699",
+    "revision": "f1b527995c09e33649bf",
     "url": "/Craft-Beer-Store/static/css/main.0ded5c6d.chunk.css"
   },
   {
@@ -16,24 +16,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Craft-Beer-Store/static/js/2.fa1296b2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c5040be1a75e35676699",
-    "url": "/Craft-Beer-Store/static/js/main.ecc34775.chunk.js"
+    "revision": "f1b527995c09e33649bf",
+    "url": "/Craft-Beer-Store/static/js/main.2e97bc52.chunk.js"
   },
   {
     "revision": "db81724f8b1055374b89",
     "url": "/Craft-Beer-Store/static/js/runtime-main.0bbf4ca2.js"
   },
   {
-    "revision": "f672b3356fa5a4e2f430218937a85d70",
-    "url": "/Craft-Beer-Store/static/media/Sawmill3By2.f672b335.jpg"
+    "revision": "d9d741791160e56bac8f2a0091822720",
+    "url": "/Craft-Beer-Store/static/media/Sawmill3By2.d9d74179.jpg"
   },
   {
     "revision": "39a403393da3b998462ced59c0a57816",
     "url": "/Craft-Beer-Store/static/media/SawmillHazy3By2.39a40339.jpg"
   },
   {
-    "revision": "de36672ddf9c4b6480efe8e2ebbd0ba1",
-    "url": "/Craft-Beer-Store/static/media/SawmillIPA.de36672d.jpg"
+    "revision": "9cfc14b5ac4a9eaf1c1011ad6cf6d156",
+    "url": "/Craft-Beer-Store/static/media/SawmillIPA.9cfc14b5.jpg"
   },
   {
     "revision": "402f988dc4faf59e6f6bc22816bebbcc",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Craft-Beer-Store/static/media/SawmillPilsner.3cef95ea.jpg"
   },
   {
-    "revision": "20c1bc336fb935039a03bb9182d82d43",
-    "url": "/Craft-Beer-Store/static/media/SawmillXPA.20c1bc33.jpg"
+    "revision": "9423b79cae0590a8702c23939ffe7d02",
+    "url": "/Craft-Beer-Store/static/media/SawmillXPA.9423b79c.jpg"
   },
   {
     "revision": "48d883108ac6712f5a115caf92efba18",
