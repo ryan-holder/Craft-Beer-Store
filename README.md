@@ -1,3 +1,5 @@
 # Craft Beer Store
 
-Front-end application of an online store, created to practice React and React Router.
+A fully-responsive and cross-browser compatible React application with cart/checkout functionality for the front-end of an online store. 
+
+*Created to learn/practice React and React Router
